@@ -6,6 +6,11 @@ A flutter clean architecture example. Using injectable, get_it, drift, BLoC and 
 
 Clean architecture refers to organizing the project so that it’s easy to understand and easy to change as the project grows. This doesn’t happen by chance. It takes intentional planning.</i>
 
+<Progress
+  percent={88}
+  status="success"
+/>
+
 ## Modules ##
 | Modules       | Progress   |
 | :----------   | :-------:  |
@@ -14,8 +19,3 @@ Clean architecture refers to organizing the project so that it’s easy to under
 | Presentation  |            |
 
 - Presentation 
-
-<Progress
-  percent={10}
-  status="error"
-/>
