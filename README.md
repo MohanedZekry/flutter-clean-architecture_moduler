@@ -25,6 +25,9 @@ There are 3 modules in this app.
 | probably your extension  | repository             | remote/local config (dio/sqflite)   |
 
 
+### Communication between layers
+ SOON
+
 The contribution guidelines will be <i> Available Soon </i>
 ### Instructions
 
