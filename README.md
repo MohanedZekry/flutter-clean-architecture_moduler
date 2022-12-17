@@ -9,6 +9,6 @@ Clean architecture refers to organizing the project so that it’s easy to under
 ## Modules ##
 | Modules       | Progress   |
 | :----------   | :-------:  |
-| Data          |    ✅     | 
-| Domain        |    ☑️     |
-| Presentation  |    ☑️     |
+| Data          |    [ ]     | 
+| Domain        |    ✅     |
+| Presentation  |    [x]     |
