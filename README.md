@@ -1,1 +1,1 @@
-## Emailed App
+## Emailed Article App
