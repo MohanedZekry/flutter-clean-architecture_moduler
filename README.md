@@ -16,6 +16,7 @@ Clean architecture refers to organizing the project so that it’s easy to under
 
 
 
+The contribution guidelines will be <i> Available Soon </i>
 ### Instructions
 
 - Fork this repository
