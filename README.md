@@ -16,6 +16,15 @@ Clean architecture refers to organizing the project so that it’s easy to under
 
 
 
+## Description
+There are 3 modules in this app.  
+| Presentation Module      | Domain Module          | Data Module                         |
+| ------------------------ | ---------------------- | ----------------------------------- |
+| ui/view                  | entities               | data source, dto                    |
+| controller               | use cases              | repository implementation           |
+| probably your extension  | repository             | remote/local config (dio/sqflite)   |
+
+
 The contribution guidelines will be <i> Available Soon </i>
 ### Instructions
 
