@@ -7,7 +7,8 @@ A flutter clean architecture example. Using injectable, get_it, drift, BLoC and 
 Clean architecture refers to organizing the project so that it’s easy to understand and easy to change as the project grows. This doesn’t happen by chance. It takes intentional planning.</i>
 
 ## Modules ##
-- Data Module ☑️
-- Domain Module ✅
-- Presentation Module
-- Core Module
+| Modules       | Progress   |
+| :----------   | :-------:  |
+| Data          |    ✅     | 
+| Domain        |    ☑️     |
+| Presentation  |    ☑️     |
