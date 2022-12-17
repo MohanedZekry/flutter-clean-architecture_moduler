@@ -13,7 +13,8 @@ Clean architecture refers to organizing the project so that it’s easy to under
 | Domain        |    ✅     |
 | Presentation  |            |
 
-- Presentation <Progress
-  percent={43}
+- Presentation 
+<Progress
+  percent={10}
   status="error"
 />
