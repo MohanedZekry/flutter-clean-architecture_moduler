@@ -15,7 +15,6 @@ Clean architecture refers to organizing the project so that it’s easy to under
 | Presentation  |            |
 
 
-
 ## Description
 There are 3 modules in this app.  
 | Presentation Module      | Domain Module          | Data Module                         |
@@ -25,7 +24,16 @@ There are 3 modules in this app.
 | probably your extension  | repository             | remote/local config (dio/sqflite)   |
 
 
-### Communication between layers
+
+## Tools
+- [BLoC](https://pub.dev/packages/flutter_bloc)
+- [injectable](https://pub.dev/packages/injectable)
+- [get_it](https://pub.dev/packages/get_it)
+- [drift](https://pub.dev/packages/drift)
+- [sqlite3](https://pub.dev/packages/sqlite3_flutter_libs)
+- [path](https://pub.dev/packages/path)
+
+## Communication between layers
  SOON
 
 The contribution guidelines will be <i> Available Soon </i>
