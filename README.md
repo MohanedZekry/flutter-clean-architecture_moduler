@@ -25,13 +25,17 @@ There are 3 modules in this app.
 
 
 
-## Tools
+## Packages
 - [BLoC](https://pub.dev/packages/flutter_bloc)
 - [injectable](https://pub.dev/packages/injectable)
 - [get_it](https://pub.dev/packages/get_it)
 - [drift](https://pub.dev/packages/drift)
 - [sqlite3](https://pub.dev/packages/sqlite3_flutter_libs)
 - [path](https://pub.dev/packages/path)
+- [go_router](https://pub.dev/packages/go_router)
+- [equtable](https://pub.dev/packages/equatable)
+- [dartz](https://pub.dev/packages/dartz)
+- [lottie](https://pub.dev/packages/lottie)
 
 ## Communication between layers
  SOON
