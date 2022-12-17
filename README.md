@@ -14,6 +14,7 @@ Clean architecture refers to organizing the project so that it’s easy to under
 | Presentation  |            |
 
 - Presentation 
+
 <Progress
   percent={10}
   status="error"
