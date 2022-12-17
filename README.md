@@ -1,5 +1,5 @@
 # Emailed Article App
-A flutter clean architecture example. Using injectable, get_it, drift, BLoC and go_router
+A flutter clean architecture example. Using injectable, get_it, drift, BLoC and go_router,...
 
 ## Intro ##
 <i>Architecture means the overall design of the project. It’s the organization of the code into classes or files or components or modules. And it’s how all these groups of code relate to each other. The architecture defines where the application performs its core functionality and how that functionality interacts with things like the database and the user interface.
