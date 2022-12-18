@@ -1,25 +1,30 @@
 import 'package:domain/domain.dart';
 
-class ArticleModel extends Article {
-  const ArticleModel({
+class EmailModel extends Email {
+
+  const EmailModel({
     required super.id,
     required super.url,
     required super.title,
     required super.source,
     required super.publishedDate,
     required super.summary,
-    super.image
+    super.image,
+    required super.byline,
+    super.type
   });
 
-  factory ArticleModel.fromJson(Map<String, dynamic> json) =>
-      ArticleModel(
+  factory EmailModel.fromJson(Map<String, dynamic> json) =>
+      EmailModel(
           id: json['id'],
           url: json['url'],
           title: json['title'],
           source: json['source'],
           publishedDate: json['publishedDate'],
           summary: json['summary'],
-          image: json['image']
+          image: json['image'],
+          byline: json['byline'],
+          type: json['type']
       );
 
   Map<String, dynamic> toJson() =>
@@ -29,7 +34,9 @@ class ArticleModel extends Article {
         'title': title,
         'source': source,
         'publishedDate' : publishedDate,
-        'summary': summary
+        'summary': summary,
+        'byline' : byline,
+        'type' : type
       };
 
 }

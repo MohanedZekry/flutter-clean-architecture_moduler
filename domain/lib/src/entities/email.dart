@@ -1,6 +1,6 @@
 import 'package:equatable/equatable.dart';
 
-class Article extends Equatable {
+class Email extends Equatable {
 
   final int id;
   final String url;
@@ -9,15 +9,19 @@ class Article extends Equatable {
   final String publishedDate;
   final String summary;
   final String? image;
+  final String? type;
+  final String byline;
 
-  const Article({
+  const Email({
     required this.id,
     required this.url,
     required this.title,
     required this.source,
     required this.publishedDate,
     required this.summary,
-    required this.image
+    this.image,
+    this.type,
+    required this.byline
   });
 
   @override
@@ -29,5 +33,7 @@ class Article extends Equatable {
         publishedDate,
         summary,
         image,
+        type,
+        byline,
       ];
 }
